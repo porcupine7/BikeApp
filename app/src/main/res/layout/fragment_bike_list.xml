@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@+id/list_bikes"
+<RelativeLayout android:id="@+id/fragment_root"
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_bikes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="113dp"
-        android:layout_marginStart="113dp"
-        android:layout_marginTop="107dp"
-        android:id="@+id/textView"/>
+        android:layout_alignParentTop="true"/>
 </RelativeLayout>

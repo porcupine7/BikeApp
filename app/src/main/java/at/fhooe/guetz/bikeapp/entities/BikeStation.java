@@ -19,6 +19,18 @@ public class BikeStation {
   private String timestamp;
 
 
+  public int getEmptySlots() {
+    return emptySlots;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public int getFreeBikes() {
+    return freeBikes;
+  }
+
   @Override
   public String toString() {
     return name + " has " + freeBikes + " free bikes and " + emptySlots + " empty slots.";
