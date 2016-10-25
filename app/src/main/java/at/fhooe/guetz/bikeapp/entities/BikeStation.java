@@ -3,9 +3,8 @@ package at.fhooe.guetz.bikeapp.entities;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by andy on 25.10.16.
+ * Entity representing a bike station
  */
-
 public class BikeStation {
   private String name;
   @SerializedName("free_bikes")

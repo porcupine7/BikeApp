@@ -17,7 +17,7 @@ import at.fhooe.guetz.bikeapp.entities.BikeStation;
 import at.fhooe.guetz.bikeapp.model.BikeAdapter;
 
 /**
- * Created by andy on 25.10.16.
+ * Fragment containing the RecyclerView which shows bike stations in textual style
  */
 public class BikeListFragment extends Fragment {
 

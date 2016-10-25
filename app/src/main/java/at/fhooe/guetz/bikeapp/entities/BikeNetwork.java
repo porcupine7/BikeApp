@@ -5,9 +5,8 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 /**
- * Created by andy on 25.10.16.
+ * Entity representing a network of BikeStations
  */
-
 public class BikeNetwork {
   private String id;
 

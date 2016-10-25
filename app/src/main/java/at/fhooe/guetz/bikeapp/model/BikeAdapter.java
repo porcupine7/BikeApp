@@ -15,17 +15,16 @@ import at.fhooe.guetz.bikeapp.R;
 import at.fhooe.guetz.bikeapp.entities.BikeStation;
 
 /**
- * Created by andy on 25.10.16.
+ * Adapter for the RecyclerView
  */
-
 public class BikeAdapter extends RecyclerView.Adapter<BikeAdapter.ViewHolder> {
 
-  public static class ViewHolder extends RecyclerView.ViewHolder {
-    public TextView name;
-    public TextView freeBikes;
-    public TextView emptySlots;
+  static class ViewHolder extends RecyclerView.ViewHolder {
+    private TextView name;
+    private TextView freeBikes;
+    private TextView emptySlots;
 
-    public ViewHolder(View itemView) {
+    private ViewHolder(View itemView) {
       super(itemView);
       this.name = (TextView) itemView.findViewById(R.id.txt_bike_name);
       this.freeBikes = (TextView) itemView.findViewById(R.id.txt_bike_free);
