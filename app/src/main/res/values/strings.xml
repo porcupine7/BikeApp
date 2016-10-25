@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BikeApp</string>
+    <string name="error_general">Sorry, something went wrong!</string>
 </resources>
