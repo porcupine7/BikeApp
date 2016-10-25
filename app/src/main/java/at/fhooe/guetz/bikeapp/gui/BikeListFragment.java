@@ -39,7 +39,7 @@ public class BikeListFragment extends Fragment {
     recyclerView.setHasFixedSize(true);
     if (getBikeStations() != null) {
       recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-      BikeAdapter adapter = new BikeAdapter(getBikeStations());
+      BikeAdapter adapter = new BikeAdapter(getBikeStations(), getActivity());
       recyclerView.setAdapter(adapter);
     }
     return rootView;

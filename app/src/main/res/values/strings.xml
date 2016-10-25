@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">BikeApp</string>
     <string name="error_general">Sorry, something went wrong!</string>
+    <string name="list_bike_txt_free_bikes">%d free bikes</string>
+    <string name="list_bike_txt_empty_slots">%d empty slots</string>
 </resources>
